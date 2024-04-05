@@ -91,6 +91,10 @@ const totalAmount = (Number(price) * Number(booking.guestSize)) * daysDifference
                   <input type="tel" placeholder='Phone' id='phone' required
                      onChange={handleChange} />
                </FormGroup>
+               {/* <FormGroup>
+                  <input type="email" placeholder='userEmail' id='userEmail' required
+                     onChange={handleChange} />
+               </FormGroup> */}
                <FormGroup className='d-flex align-items-center gap-3'>
                   <input type="date" placeholder='' id='bookAt' required
                      onChange={handleChange} />
